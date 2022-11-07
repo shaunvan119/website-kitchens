@@ -1,0 +1,118 @@
+.form-contact {
+  display: flex;
+  flex-direction: column;
+ 
+}
+
+.input-contact {
+  margin-bottom: 20px;
+}
+
+.input-button {
+    margin-bottom: 30px;
+    background-color: #d89e1a;
+    border: none;
+    width: 20px;
+    border-radius: 20px;
+}
+
+.input-button:hover {
+  background-color:  whitesmoke;
+  
+}
+
+
+
+.last_input {
+    max-width: 100px;
+    height: 40px;
+    font-weight: 700;
+}
+
+input {
+  width: 305px;
+  height: 25px;
+  
+  
+}
+
+textarea {
+  width: 305px;
+}
+
+.last_input {
+    width: 310px;
+}
+
+label {
+    color: whitesmoke;
+    font-weight: 700;
+}
+
+.Heading_quote {
+    color: whitesmoke;
+    text-align: center;
+
+}
+
+.result-msg {
+    color: red;
+}
+
+@media only screen and (max-width: 1242px) {
+  .free_quote_form {
+    height: 350px;
+    width: 280px; 
+    margin-top: -30px;
+    
+}
+
+
+input {
+  width: 200px;
+  
+}
+
+textarea {
+  width: 202px;
+}
+
+.Heading_quote {
+    font-size: 25px;
+    margin-top: 25px;
+
+}
+
+
+
+}
+
+@media only screen and (max-width: 1036px) {
+  .free_quote_form {
+    
+    margin-top: -50px;
+    
+}
+
+}
+
+@media only screen and (max-width: 969px) {
+  .free_quote_form {
+     height: 330px;
+    margin-top: -55px;
+    
+}
+
+}
+
+
+@media only screen and (max-width: 912px) {
+  .free_quote_form {
+    display: none;
+    
+}
+
+}
+
+
+

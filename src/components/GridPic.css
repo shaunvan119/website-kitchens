@@ -1,0 +1,150 @@
+.grid-wrapper {
+     display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 20px;
+  margin-top: 50px;
+    justify-items: center;
+    
+}
+
+.text {
+  width: 80%;
+}
+
+
+
+.grid-image {
+    height: 340px;
+}
+
+
+.container {
+  position: relative;
+}
+
+
+.overlay {
+  position: absolute;
+  
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 346px;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #d89e1a;
+  
+}
+
+
+.container:hover .overlay {
+  opacity: .9;
+}
+
+.text {
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+
+}
+
+@media only screen and (max-width: 1242px) {
+
+ .grid-image {
+    height: 250px;
+}
+
+.overlay {
+  height: 256px; 
+}
+
+
+}
+
+@media only screen and (max-width: 500px) {
+  .grid-image {
+    
+    height: 120px;
+}
+
+.overlay, .overlay-right, .overlay-left {
+  display: none;
+}
+
+
+
+
+}
+
+
+@media only screen and (max-width: 969px) {
+   .grid-image {
+    height: 230px;
+}
+
+.overlay {
+  height: 238px; 
+}
+
+
+}
+
+@media only screen and (max-width: 885px) {
+
+
+
+ .grid-image {
+    height: 180px;
+}
+
+.overlay {
+  height: 186px; 
+}
+
+.text {
+  font-size: 20px;
+}
+
+}
+
+@media only screen and (max-width: 700px) {
+
+
+
+ .grid-image {
+    height: 150px;
+}
+
+.overlay {
+  height: 156px; 
+}
+
+.text {
+  font-size: 15px;
+}
+
+
+
+}
+
+
+@media only screen and (max-width: 550px) {
+
+.grid-wrapper, .contact_buttom {
+  display: none;
+ 
+}
+
+}
+
+
+
+
