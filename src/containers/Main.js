@@ -2,7 +2,7 @@ import React from 'react'
 import "./main.css"
 import backgroundVid from "../assets/backgroundVid.mp4"
 import ContactForm from '../components/ContactFrom'
-import Modal from '../components/Modal'
+import Kitchens from "../assets/kitchen_log.png"
 
 
 const Main = () => {
@@ -11,9 +11,7 @@ const Main = () => {
      
        <video src={backgroundVid} autoPlay loop muted/>
        <div className="heading_wrapper">
-        <h1 className="main_heading">AUSTRALIA'S TRUSTED<br/> EXPERTS IN ROOF REPAIRS<br/> AND ROOF RESTORATION</h1>
-        <h2 className="main_heading_two">Book a free <span style={{ color: "#d89e1a" }} >Quote</span></h2> 
-        <Modal/>
+       <img className="main_heading" src={Kitchens}   alt="kitchen and bathroom logo" />
       </div>
 
       <div className="content">

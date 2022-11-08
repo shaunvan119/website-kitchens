@@ -8,15 +8,16 @@ video {
   right: 50px;
   display: flex;
   flex-direction: column;
-  
-  
- 
+
 }
+
+
+
 
 .free_quote_form {
     height: 400px;
     width: 380px;
-    background-color: black;
+    background-color: #575746;
     opacity: .8;
     display: flex;
     flex-direction: column;
@@ -28,25 +29,22 @@ video {
 
 .heading_wrapper {
   position: absolute;
-  top: 220px;
-  left: 150px;
+  top: 140px;
+  left: 10px;
   display: flex;
   flex-direction: column;
- 
-  
+
   
 }
 
 .main_heading {
-    color: whitesmoke;
-    font-size: 43px;
-    margin-bottom: -15px;
+  height: 400px;
+  width: 400px;
 }
 
-.main_heading_two {
-    font-size: 36px;
-    color: whitesmoke;
-}
+
+
+
 
 
 .booking_button {
@@ -100,8 +98,8 @@ border-radius: 20px;
 
 @media only screen and (max-width: 900px) {
 .heading_wrapper {
-  top: 170px;
-  left: 40px; 
+  top: 110px;
+  left: 10px; 
   
 }
 
@@ -116,6 +114,36 @@ border-radius: 20px;
 }
 
 }
+
+@media only screen and (max-width: 830px) {
+  .main_heading {
+  height: 300px;
+  width: 300px;
+}
+
+.heading_wrapper {
+  top: 130px;
+  left: 10px; 
+  
+}
+
+
+}
+
+@media only screen and (max-width: 830px) {
+  .main_heading {
+  height: 250px;
+  width: 250px;
+}
+
+.heading_wrapper {
+  top: 140px;
+  
+}
+
+
+}
+
 
 
 
