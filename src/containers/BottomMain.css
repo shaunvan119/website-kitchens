@@ -1,5 +1,5 @@
 .BottomMain_heading {
-    font-size: 43px;
+    font-size: 32px;
     text-align: center;
     color: whitesmoke;
 }
@@ -18,14 +18,14 @@
   text-align: center;
   font-size: 43px;
   color: whitesmoke;
-  margin-bottom: 0px;
+  margin-bottom: 10px;
 }
 
 .contact_bottom {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: black;
+    background-color: #575746;
     margin-top: 40px; 
     
 }

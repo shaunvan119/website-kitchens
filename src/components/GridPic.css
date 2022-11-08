@@ -43,9 +43,7 @@
 }
 
 .text {
-  color: white;
-  font-size: 25px;
-  font-weight: bold;
+  
   position: absolute;
   top: 50%;
   left: 50%;
@@ -54,6 +52,12 @@
   transform: translate(-50%, -50%);
   text-align: center;
 
+}
+
+.grid_h2s {
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
 }
 
 @media only screen and (max-width: 1242px) {
@@ -109,7 +113,7 @@
   height: 186px; 
 }
 
-.text {
+.grid_h2s {
   font-size: 20px;
 }
 
@@ -127,7 +131,7 @@
   height: 156px; 
 }
 
-.text {
+.grid_h2s {
   font-size: 15px;
 }
 

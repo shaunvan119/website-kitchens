@@ -1,9 +1,9 @@
 
 import "./Service.css"
-import { GiLeak } from 'react-icons/gi';
-import { MdRoofing, MdCleaningServices, MdOutlineHomeRepairService  } from 'react-icons/md';
-import { GiPaintRoller } from 'react-icons/gi';
-import { ImHome } from 'react-icons/im';
+import { MdBuild } from 'react-icons/md';
+import { MdDesignServices, MdLocalLaundryService, MdBathroom, MdCoffeeMaker} from 'react-icons/md';
+import { GiKitchenTap } from 'react-icons/gi';
+
 
 
 
@@ -20,31 +20,31 @@ const Service = () => {
     
         <div className="container_service" >
         <div className='click_container'>
-            <h2>Roof Leak Repairs</h2>
-            <GiLeak style={style}/>
+            <h2>Kitchen design</h2>
+            <MdDesignServices style={style}/>
          </div> 
          
 
         </div>
         <div className="container_service">
-            <h2>Roof Restoration & Replacement</h2>
-            <MdRoofing style={style}/>
+            <h2>Custom kitchen <br/> build</h2>
+            <MdBuild style={style}/>
         </div>
         <div className="container_service">
-            <h2>Roof Cleaning & Painting</h2>
-            <GiPaintRoller style={style}/>
+            <h2>Modern, minimalist and contemporary <br/> kitchens</h2>
+            <GiKitchenTap style={style}/>
         </div>
         <div className="container_service">
-            <h2>Gutter Repair & Gutter Installation</h2>
-            <MdOutlineHomeRepairService style={style}/>
+            <h2>Laundry design and<br/> build</h2>
+            <MdLocalLaundryService style={style}/>
         </div>
         <div className="container_service">
-            <h2>Gutter Cleaning</h2>
-            <MdCleaningServices style={style}/>
+            <h2>Bathroom design and<br/> build</h2>
+            <MdBathroom style={style}/>
         </div>
         <div className="container_service">
-            <h2>Gutter Replacement</h2>
-         <ImHome style={style}/>
+            <h2>Butlers pantry</h2>
+         <MdCoffeeMaker style={style}/>
         </div>
        
     </div>
