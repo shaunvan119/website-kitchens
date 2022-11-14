@@ -7,11 +7,13 @@ import laundry from "../assets/laundry.png"
 import smallBathroom from "../assets/smallBathroom.png"
 
 
+
 export default function GridPics() {
   return (
 
   <div className="grid-wrapper">
         <div className="container">
+     
             <img className="grid-image colorbond_image" src={kitchensMin} alt="modern minimalist kitchen" />
             <div className="overlay">
             <div className="text"><h2 className='grid_h2s'>Minimalist kitchens</h2></div>

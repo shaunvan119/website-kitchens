@@ -7,6 +7,7 @@ import { GiKitchenTap } from 'react-icons/gi';
 
 
 
+
 const style = { color: "#d89e1a", fontSize: "3rem" }
 
 
@@ -17,7 +18,8 @@ const Service = () => {
   return (
     
     <div className="grid-wrapper_service">
-    
+
+
         <div className="container_service" >
         <div className='click_container'>
             <h2>Kitchen design</h2>
