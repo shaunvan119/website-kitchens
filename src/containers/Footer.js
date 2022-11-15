@@ -1,4 +1,5 @@
 import React from 'react'
+import MessengerCustomerChat from 'react-messenger-customer-chat';
 import "./footer.css"
 import hiaLogo from "../assets/hiaLogo.png"
 import google from "../assets/google.png"
@@ -29,8 +30,11 @@ const Footer = () => {
         </>
      </div>
      <div>
-  
+  <MessengerCustomerChat
+    pageId="100087662866889"
+    appId="524942295889420"/>
      </div>
+     
       <div className="badges">
         <a href="https://hia.com.au/" rel="noopener noreferrer" target="_blank"><img className="logo_badge" src={hiaLogo} alt="hia logo"/></a>
         <a href="https://colorbond.com/" rel="noopener noreferrer" target="_blank" ><img className="logo_badge"  src={google} alt="colorbond logo"/></a>
