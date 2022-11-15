@@ -1,5 +1,4 @@
 import React from 'react'
-import MessengerCustomerChat from 'react-messenger-customer-chat';
 import "./footer.css"
 import hiaLogo from "../assets/hiaLogo.png"
 import google from "../assets/google.png"
@@ -30,9 +29,8 @@ const Footer = () => {
         </>
      </div>
      <div>
-  <MessengerCustomerChat
-    pageId="100087662866889"
-    appId="524942295889420"/>
+     
+  
      </div>
      
       <div className="badges">
