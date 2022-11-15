@@ -6,7 +6,6 @@ import Reecelogo from "../assets/Reecelogo.jpeg"
 import logoWhite from "../assets/logoWhite.png"
 import {AiFillFacebook,AiFillLinkedin,AiFillTwitterSquare,AiFillYoutube } from 'react-icons/ai';
 import {FaPinterestSquare } from 'react-icons/fa';
-import FacebookChat from '../components/facebookChat'
 
 const style = { color: "white", fontSize: "1.5em" }
 
@@ -30,7 +29,7 @@ const Footer = () => {
         </>
      </div>
      <div>
-      <FacebookChat/>
+  
      </div>
       <div className="badges">
         <a href="https://hia.com.au/" rel="noopener noreferrer" target="_blank"><img className="logo_badge" src={hiaLogo} alt="hia logo"/></a>
